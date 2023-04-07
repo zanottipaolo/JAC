@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page - MeGusta</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onke>
+    <!-- Header -->
+    <header id="header">
+      <nav class="navbar">
+        <a href="index.html">
+          <img src="img/logo.png" alt="Logo del ristorante" class="logo" />
+          <p id="title">MeGusta</p>
+        </a>
+        <ul class="menu">
+          <li>
+            <a href="abous-us.html">About us</a>
+          </li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <button class="hamburger" onclick="openMenu()">
+          <svg viewBox="0 0 100 80" width="40" height="40">
+            <rect width="100" height="20"></rect>
+            <rect y="30" width="100" height="20"></rect>
+            <rect y="60" width="100" height="20"></rect>
+          </svg>
+        </button>
+      </nav>
+
+      <ul id="mobileMenu" class="mobileMenuClass">
+        <li>
+          <a href="abous-us.html">About us</a>
+        </li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <h1>Home Page MeGusta</h1>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-menu">
+        <div>Logo</div>
+        <div>Prima colonna</div>
+        <div>Seconda colonna</div>
+        <div>Terza colonna</div>
+      </div>
+
+      <hr />
+
+      <div class="footer-name"><p>&copy; MeGusta</p></div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

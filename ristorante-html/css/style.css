@@ -1,0 +1,125 @@
+html {
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  background-color: rgb(120, 120, 108);
+  padding: 15px;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar > a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+#title {
+  font-size: 30px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.menu > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu > li > a:hover {
+  color: blue;
+}
+
+footer {
+  background-color: burlywood;
+  height: 200px;
+  margin-top: auto;
+}
+
+/* Telefoni */
+@media screen and (max-width: 600px) {
+  .footer-menu {
+    flex-direction: column;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/*  */
+@media screen and (min-width: 601px) {
+  .footer-menu {
+    flex-direction: row;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main > h1 {
+    text-align: center;
+  }
+}
+
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-name {
+  display: flex;
+}
+
+.toggleMenu {
+  height: 300px;
+}
+
+.mobileMenuClass {
+  display: none;
+}
+
+.mobileMenuOpen {
+  display: block;
+}
