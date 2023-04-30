@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    text-align: center;
+}
+
+.paragraph{
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.searchBox{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
