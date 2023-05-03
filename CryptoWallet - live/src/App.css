@@ -1,0 +1,37 @@
+* {
+  font-family: 'Varela Round', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  transition: scale 0.1s ease-in-out;
+}
+
+#root {
+  background: linear-gradient(60deg, #be62a1 0%, #7aade7 100%);
+}
+
+div {
+  background-color: #FFFFFF20;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.nav-bar > li > a {
+    text-decoration:none;
+    color:black;
+    font-size:2rem;
+}
+
+.nav-bar > li > a:hover {
+    background-color: black;
+    color:white;
+}
+
