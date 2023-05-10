@@ -1,5 +1,5 @@
 * {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   margin: 0;
   padding: 0;
   color: white;
@@ -11,7 +11,7 @@
 }
 
 div {
-  background-color: #FFFFFF20;
+  background-color: #ffffff20;
   border-radius: 1rem;
   margin: 0.5rem;
   padding: 1rem;
@@ -25,13 +25,36 @@ div {
 }
 
 .nav-bar > li > a {
-    text-decoration:none;
-    color:black;
-    font-size:2rem;
+  text-decoration: none;
 }
 
 .nav-bar > li > a:hover {
-    background-color: black;
-    color:white;
+  color: white;
 }
 
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+
+  .openMenu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li > a {
+    color: white;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .menuMobile {
+    display: none;
+  }
+}
